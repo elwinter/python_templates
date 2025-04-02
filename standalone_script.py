@@ -112,6 +112,8 @@ def primary_script_code(**kwargs) -> int:
     # ------------------------------------------------------------------------
 
     # MAIN SCRIPT CODE GOES HERE.
+    if verbose:
+        print("Starting main script code.")
 
     # ------------------------------------------------------------------------
 
